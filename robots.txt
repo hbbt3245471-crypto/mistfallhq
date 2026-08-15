@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://mistfallhq.wiki
+Sitemap: https://mistfallhq.wiki/sitemap.xml
