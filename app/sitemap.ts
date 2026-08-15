@@ -1,6 +1,8 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 import { getGuideSlugs } from "@/lib/content";
 import { siteConfig } from "@/site.config";
+
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ["", "/about", "/privacy", "/contact"];
